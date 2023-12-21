@@ -1,0 +1,36 @@
+
+
+npm i bootstrap
+
+npm install axios @react-oauth/google jwt-decode react-redux
+npm i --save-dev @types/node
+
+
+
+
+main.tsx
+import 'bootstrap/dist/css/bootstrap.css'
+
+
+
+# press cmd + p
+>format document > 'prettier'
+
+# p1
+
+make '.env' file
+
+# p2 add this to above
+
+REACT_APP_GOOGLE_CLIENT_ID=308860405821-ij6ds0mm9vv5cgv8mq6kbfvl9bgdcvlc.apps.googleusercontent.com
+REACT_APP_PAYPAL_CLIENT_ID=AZlsRc1lq78XGBXQUwltnXZs3hG7pLqlWAV9bc_az35fJ4Z4ZDBR_bh_w0-q0MZc3_Y4EcQMz3FhO547
+# REACT_APP_PAYPAL_CLIENT_ID=AXbcD-1nft4XhhBuGvJ818PDcI-C94QzFgjJyUL2fic4R2oN0Iw0cQy1cLtaIdrfQ9CBXJKe67Q_veeb
+
+REACT_APP_YOUTUBE_CLIENT_ID=308860405821-uj2cen6ln2tbgm0lf1nbvr6gj39n2njj.apps.googleusercontent.com
+# REACT_APP_YOUTUBE_REDIRECT_URI=http://localhost:5001/user/youtube_signin_callback
+REACT_APP_YOUTUBE_REDIRECT_URI=https://youconsult.co
+REACT_APP_SERVER_PORT=5001
+
+REACT_APP_STRIPE_PUBLICK_KEY=pk_test_51LQwNWSIVyGr8RK0rjH3vsL3P674BkGHtoULCGeCwYpOxybEk2667FR7Gy9UwozMIs3HagiUhf1pAw7RqYANdyXs00T2bWyYS1
+REACT_APP_STRIPE_PRICE_ID=price_1Nu6shSIVyGr8RK0ZiUu7hOB
+
